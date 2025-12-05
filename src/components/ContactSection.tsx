@@ -141,7 +141,7 @@ const ContactSection = () => {
                   </div>
 
                   {/* Redirecionamento após envio */}
-                  <input type="hidden" name="_next" value="http://localhost:8080" />
+                  <input type="hidden" name="_next" value="http://localhost:8080/" />
                   <input type="hidden" name="_captcha" value="false" />
 
                   <Button type="submit" variant="hero" size="lg" className="w-full">

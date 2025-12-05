@@ -15,71 +15,35 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Plataforma completa de e-commerce com painel administrativo, sistema de pagamentos e gestão de estoque.",
-      image: ecommerceImage,
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
-      category: "Web",
-      github: "https://github.com/seuusuario/ecommerce-platform",
-      demo: "https://ecommerce-demo.vercel.app"
-    },
-    {
       title: "NucleStockBR - Sistema de Estoque",
-      description: "Aplicação web para controle de estoque com dashboard dinâmico, monitoramento de produtos e geração de relatórios.",
+      description: "Sistema completo de controle de estoque com dashboard, filtros avançados, relatórios em PDF e integração ao Supabase para autenticação e banco de dados. Desenvolvido com foco em usabilidade, organização e visualização clara de métricas operacionais.",
       image: dashboardImage,
-      tech: ["React.Js", "TypeScript", "TailwindCSS", "Firebase"],
+      tech: ["React.Js", "TypeScript", "TailwindCSS", "Supabase"],
       category: "Web",
-      github: "https://github.com/seuusuario/analytics-dashboard",
-      demo: "https://dashboard-analytics.vercel.app"
+      github: "https://github.com/carlosgodspeed/nuclestockbr",
+      demo: "https://github.com/carlosgodspeed/nuclestockbr"
     },
     {
-      title: "Vogue Vault",
-      description: "E-commerce de moda premium com catálogo interativo, sistema de coleções e experiência de compra sofisticada.",
-      image: vogueImage,
-      tech: ["React", "TypeScript", "Styled Components", "Strapi"],
-      category: "Web",
-      github: "https://github.com/seuusuario/vogue-vault",
-      demo: "https://vogue-vault.vercel.app"
-    },
-    {
-      title: "Airline Booking",
-      description: "Sistema completo de reservas aéreas com busca de voos, gerenciamento de passageiros e pagamentos online.",
+      title: "FlyNet",
+      description: "Plataforma de turismo para busca de voos, hospedagens e pacotes, com interface responsiva, login, área do usuário e módulo de pesquisa dinâmica. Projeto focado em experiência do usuário e arquitetura React componentizada",
       image: airlinesImage,
-      tech: ["React", "Node.js", "PostgreSQL", "Payment Gateway"],
+      tech: ["React", "css"],
       category: "Web",
-      github: "https://github.com/seuusuario/airline-booking",
-      demo: "https://airline-booking.vercel.app"
+      github: "https://github.com/carlosgodspeed/FlyNet",
+      demo: "https://github.com/carlosgodspeed/FlyNet"
     },
     {
-      title: "Museu Nacional",
-      description: "Website institucional com galeria virtual, sistema de agendamentos e tours interativos 360°.",
-      image: museumImage,
-      tech: ["React", "Three.js", "CMS", "Virtual Tours API"],
+      title: "Supreme Jurídica",
+      description: "Landing page fictícia desenvolvida para prática de design e front-end, simulando o site institucional de um escritório de advocacia. O projeto apresenta identidade visual elegante, seções de serviços jurídicos, área institucional e chamada para contato, com foco em responsividade e experiência do usuário.",
+      image: ecommerceImage,
+      tech: ["React","CSS"],
       category: "Web",
-      github: "https://github.com/seuusuario/museu-nacional",
-      demo: "https://museu-nacional.vercel.app"
+      github: "https://github.com/carlosgodspeed/Lading-page-Advocacia",
+      demo: "https://github.com/carlosgodspeed/Lading-page-Advocacia"
     },
-    {
-      title: "Food Delivery",
-      description: "App de delivery de comida com geolocalização, rastreamento em tempo real e sistema de avaliações.",
-      image: foodAppImage,
-      tech: ["React Native", "Firebase", "Maps API", "Push Notifications"],
-      category: "Mobile",
-      github: "https://github.com/seuusuario/food-delivery",
-      demo: "https://play.google.com/store/apps/details?id=com.fooddelivery"
-    },
-    {
-      title: "Rental Houses",
-      description: "Aplicativo para aluguel de casas de temporada com busca avançada, reservas e sistema de pagamento.",
-      image: rentalAppImage,
-      tech: ["React Native", "Node.js", "MongoDB", "Stripe"],
-      category: "Mobile",
-      github: "https://github.com/seuusuario/rental-houses",
-      demo: "https://apps.apple.com/app/rental-houses/id123456789"
-    }
   ];
 
-  const categories = ["Todos", "Web", "Mobile"];
+  const categories = ["Web"];
 
   const filteredProjects = activeCategory === "Todos" 
     ? projects 

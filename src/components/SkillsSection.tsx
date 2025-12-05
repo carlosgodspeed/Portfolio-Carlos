@@ -18,7 +18,7 @@ const SkillsSection = () => {
     {
       title: "Frontend",
       skills: [
-        { name: "React" },
+        { name: "React.Js" },
         { name: "TypeScript" },
         { name: "JavaScript" },
         { name: "HTML/CSS" },
@@ -28,11 +28,10 @@ const SkillsSection = () => {
     {
       title: "Backend",
       skills: [
-        { name: "Node.js" },
-        { name: "PHP" },
         { name: "APIs REST" },
-        { name: "SQL" },
-        { name: "Firebase" }
+        { name: "SQL/MySQL" },
+        { name: "Firebase" },
+        { name: "Supabase" },
       ]
     },
     {
@@ -41,44 +40,45 @@ const SkillsSection = () => {
         { name: "Git/GitHub" },
         { name: "VS Code" },
         { name: "Figma" },
+        { name: "Postman" },
+        { name: "" },
       ]
     }
   ];
 
   const technologies = [
-    { name: "JavaScript", icon: Terminal },
-    { name: "TypeScript", icon: Code },
-    { name: "React.js", icon: Code },
-    { name: "React Native", icon: Smartphone },
-    { name: "Redux", icon: Layers },
-    { name: "Context API", icon: Box },
-    { name: "Styled-components", icon: Palette },
-    { name: "Tailwind CSS", icon: Palette },
-    { name: "Bootstrap", icon: Globe },
-    { name: "PHP", icon: Server },
-    { name: "C#", icon: Code },
-    { name: "HTML", icon: Globe },
-    { name: "CSS", icon: Palette },
-    { name: "MySQL", icon: Database },
-    { name: "Firebase", icon: Cloud },
-    { name: "Axios", icon: Terminal },
-    { name: "Fetch", icon: Terminal },
-    { name: "RESTful APIs", icon: Code },
-    { name: "Firebase API", icon: Cloud },
-    { name: "Git", icon: GitBranch },
-    { name: "GitHub", icon: GitBranch },
-    { name: "npm", icon: Layers },
-    { name: "Vercel", icon: Cloud },
-    { name: "Netlify", icon: Cloud },
-    { name: "Firebase Hosting", icon: Cloud },
-    { name: "Figma", icon: Palette }
-  ];
+  { name: "PHP", icon: Code },
+  { name: "JavaScript", icon: Code },
+  { name: "TypeScript", icon: Code },
+  { name: "React.js", icon: Code },
+  { name: "Angular", icon: Code }, 
+  { name: "Java", icon: Code },    
+  { name: "Context API", icon: Box },
+  { name: "Styled-components", icon: Palette },
+  { name: "Tailwind CSS", icon: Palette },
+  { name: "HTML", icon: Globe },
+  { name: "CSS", icon: Palette },
+  { name: "MySQL", icon: Database },
+  { name: "Firebase", icon: Cloud },
+  { name: "Supabase", icon: Cloud },
+  { name: "Axios", icon: Terminal },
+  { name: "Fetch", icon: Terminal },
+  { name: "RESTful APIs", icon: Code },
+  { name: "Git", icon: GitBranch },
+  { name: "GitHub", icon: GitBranch },
+  { name: "npm", icon: Layers },
+  { name: "Vercel", icon: Cloud },
+  { name: "Netlify", icon: Cloud },
+  { name: "Figma", icon: Palette },
+  { name: "VS Code", icon: Code }
+];
+
 
   return (
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl font-bold mb-4 text-foreground">Tecnologias & Ferramentas</h2>
+          <h2 className="text-4xl font-bold mb-4 text-foreground">Tecnologias & Ferramentas que Domino</h2>
           <div className="w-20 h-1 bg-gradient-primary mx-auto mb-8"></div>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Trabalho com as tecnologias mais modernas do mercado para criar soluções eficientes e escaláveis
@@ -110,7 +110,7 @@ const SkillsSection = () => {
 
         {/* Technologies Cloud */}
         <div className="text-center animate-fade-in">
-          <h3 className="text-2xl font-semibold mb-8 text-foreground">Tecnologias que Domino</h3>
+          <h3 className="text-2xl font-semibold mb-8 text-foreground">Tecnologias & Ferramentas conhecidas</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {technologies.map((tech, index) => {
               const IconComponent = tech.icon;

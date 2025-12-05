@@ -17,7 +17,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-foreground mb-4">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Desenvolvedor FullStack <br/>
+                Desenvolvedor Front-End <br/>
               </span>
               Carlos Henrique
             </h3>

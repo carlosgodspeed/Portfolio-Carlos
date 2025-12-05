@@ -37,12 +37,12 @@ const AboutSection = () => {
           <div className="animate-slide-up">
             <h3 className="text-2xl font-semibold mb-6 text-foreground">
               <h3 className="text-2xl font-semibold mb-6 text-foreground">
-                Desenvolvedor FullStack Especialista em React.js
+                Desenvolvedor Front-End
               </h3>
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Sou desenvolvedor FullStack formado em Análise e Desenvolvimento de Sistemas, 
+                Sou desenvolvedor Front-End formado em Análise e Desenvolvimento de Sistemas, 
                 com foco em criar aplicações web e mobile utilizando JavaScript, TypeScript, 
                 React.js e React Native.
               </p>

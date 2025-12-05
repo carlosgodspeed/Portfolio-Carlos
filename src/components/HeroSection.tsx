@@ -25,12 +25,12 @@ const HeroSection = () => {
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Carlos Henrique
             </span>
-            <h3 className="text-2xl font-semibold mb-6 text-foreground">Desenvolvedor Full Stack</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-foreground">Desenvolvedor Front-End</h3>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-lg">
-            Especialista em React.js, React Native e JavaScript, com experiência em
-            APIs, Firebase e deploy em Vercel e Netlify. Crio aplicações web e
-            mobile modernas, responsivas e focadas na melhor experiência do usuário.
+            Desenvolvedor Front-End de 24 anos, formado em Análise e Desenvolvimento de Sistemas. 
+            Trabalho com React.js, JavaScript e TypeScript, criando interfaces modernas e integradas a APIs. 
+            Tenho experiência com Firebase e Supabase, além de realizar deploys em GitHub Pages, Vercel e Netlify.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
